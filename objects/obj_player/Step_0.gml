@@ -131,6 +131,13 @@ function process_player_physics()
 	
 }
 
+// check if we collide with any kinds of deathholes
+function process_deathhole_collision()
+{
+
+
+}
+
 // run our stack
 process_player_physics();
 process_movement_input(); 

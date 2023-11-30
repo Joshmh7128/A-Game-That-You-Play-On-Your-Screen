@@ -36,9 +36,11 @@
   "resources": [
     {"id":{"name":"spr_controller6","path":"sprites/spr_controller6/spr_controller6.yy",},},
     {"id":{"name":"BackgroundStaticBlock","path":"objects/BackgroundStaticBlock/BackgroundStaticBlock.yy",},},
+    {"id":{"name":"spr_gradient_white","path":"sprites/spr_gradient_white/spr_gradient_white.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_mousebutton","path":"sprites/spr_mousebutton/spr_mousebutton.yy",},},
     {"id":{"name":"portal_sprite_gif","path":"sprites/portal_sprite_gif/portal_sprite_gif.yy",},},
+    {"id":{"name":"obj_deathhole","path":"objects/obj_deathhole/obj_deathhole.yy",},},
     {"id":{"name":"Black","path":"sprites/Black/Black.yy",},},
     {"id":{"name":"obj_parent_collision_block","path":"objects/obj_parent_collision_block/obj_parent_collision_block.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},

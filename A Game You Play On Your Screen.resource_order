@@ -19,8 +19,10 @@
   "ResourceOrderSettings": [
     {"name":"spr_controller6","order":5,"path":"sprites/spr_controller6/spr_controller6.yy",},
     {"name":"BackgroundStaticBlock","order":1,"path":"objects/BackgroundStaticBlock/BackgroundStaticBlock.yy",},
+    {"name":"spr_gradient_white","order":8,"path":"sprites/spr_gradient_white/spr_gradient_white.yy",},
     {"name":"spr_mousebutton","order":16,"path":"sprites/spr_mousebutton/spr_mousebutton.yy",},
     {"name":"portal_sprite_gif","order":3,"path":"sprites/portal_sprite_gif/portal_sprite_gif.yy",},
+    {"name":"obj_deathhole","order":6,"path":"objects/obj_deathhole/obj_deathhole.yy",},
     {"name":"Black","order":1,"path":"sprites/Black/Black.yy",},
     {"name":"obj_parent_collision_block","order":2,"path":"objects/obj_parent_collision_block/obj_parent_collision_block.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},

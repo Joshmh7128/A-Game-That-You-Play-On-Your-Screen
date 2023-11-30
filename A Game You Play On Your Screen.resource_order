@@ -32,6 +32,7 @@
     {"name":"spr_purple_switch","order":7,"path":"sprites/spr_purple_switch/spr_purple_switch.yy",},
     {"name":"DevNotes","order":3,"path":"objects/DevNotes/DevNotes.yy",},
     {"name":"spr_purple_button","order":6,"path":"sprites/spr_purple_button/spr_purple_button.yy",},
+    {"name":"spr_red","order":17,"path":"sprites/spr_red/spr_red.yy",},
     {"name":"obj_mousebutton","order":5,"path":"objects/obj_mousebutton/obj_mousebutton.yy",},
     {"name":"obj_objective","order":4,"path":"objects/obj_objective/obj_objective.yy",},
   ],

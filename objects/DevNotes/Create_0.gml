@@ -11,5 +11,12 @@ Game you play on your screen, notes:
 - - objects can be possessed when a BLUE GEM is placed inside them
 - - these can include platforms, other players, launch pads, and more devices to help the player on their journey
 
+todo:
+- falling to death holes
 
+- clickable buttons
+- clickable sliders
+- clickable switches
 
+- doors that open on actions
+- clickable platforms

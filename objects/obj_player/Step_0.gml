@@ -108,7 +108,6 @@ function process_player_physics()
 	// check in the direction of our hspeed to see if we can move
 	if (instance_place(x+hspeed, y-1, obj_parent_collision_block))
 	{		
-		show_debug_message("block");
 		p = hspeed;
 		// slow us down
 		hspeed = 0;
@@ -134,10 +133,22 @@ function process_player_physics()
 // check if we collide with any kinds of deathholes
 function process_deathhole_collision()
 {
-
-
+	// if we hit a death hole, get information from our death hole and respawn at its point
+	if (instance_place(x,y+1, obj_deathhole))
+	{
+		// pass to the function
+		with (instance_nearest(x,y,obj_deathhole))
+		{
+			// run the fundion on the death hole
+			respawn_player(instance_nearest(x,y,obj_player));
+		}
+	}
 }
 
 // run our stack
+// process our physics
 process_player_physics();
+// process our player input
 process_movement_input(); 
+// check if we have to reset
+process_deathhole_collision();

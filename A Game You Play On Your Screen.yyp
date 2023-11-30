@@ -51,6 +51,7 @@
     {"id":{"name":"spr_purple_switch","path":"sprites/spr_purple_switch/spr_purple_switch.yy",},},
     {"id":{"name":"DevNotes","path":"objects/DevNotes/DevNotes.yy",},},
     {"id":{"name":"spr_purple_button","path":"sprites/spr_purple_button/spr_purple_button.yy",},},
+    {"id":{"name":"spr_red","path":"sprites/spr_red/spr_red.yy",},},
     {"id":{"name":"obj_mousebutton","path":"objects/obj_mousebutton/obj_mousebutton.yy",},},
     {"id":{"name":"obj_objective","path":"objects/obj_objective/obj_objective.yy",},},
     {"id":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},

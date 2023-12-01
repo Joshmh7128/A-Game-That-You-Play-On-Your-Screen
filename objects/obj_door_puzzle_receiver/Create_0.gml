@@ -1,8 +1,5 @@
 // Inherit the parent event
-
-function on_activate()
-{
-}
+event_inherited();
 
 function on_activate(_state)
 {
@@ -30,3 +27,6 @@ function on_activate(_state)
 		return;
 	}
 }
+
+if (invert_state)
+	on_activate(true);

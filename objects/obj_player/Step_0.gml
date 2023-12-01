@@ -145,6 +145,20 @@ function process_deathhole_collision()
 	}
 }
 
+// so we can quickly test rooms by jumping to them
+function goto_room_debug()
+{
+	if (keyboard_check(vk_alt) && keyboard_check_released(vk_right))
+	{
+		room_goto_next();
+	}
+	
+	if (keyboard_check(vk_alt) && keyboard_check_released(vk_left))
+	{
+		room_goto_previous();
+	}
+}
+
 // run our stack
 // process our physics
 process_player_physics();
@@ -152,3 +166,5 @@ process_player_physics();
 process_movement_input(); 
 // check if we have to reset
 process_deathhole_collision();
+// process our room debug room changes
+goto_room_debug();

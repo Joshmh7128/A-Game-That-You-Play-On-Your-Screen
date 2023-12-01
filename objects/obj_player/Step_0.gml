@@ -52,6 +52,12 @@ function process_movement_input()
 	if (keyboard_check(vk_escape))
 		game_end();
 	
+	// for toggling fullscreen
+	if (keyboard_check(vk_alt) && keyboard_check_pressed(vk_f12))
+	{
+		window_set_fullscreen(!window_get_fullscreen())	
+	}
+	
 	// show_debug_message("jumptime: " + string(jumptime));
 	// show_debug_message("jumpfalling: " + string(jumpfalling));
 	
